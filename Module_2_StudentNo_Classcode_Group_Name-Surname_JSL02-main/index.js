@@ -25,7 +25,7 @@ const addNewGoal = () => {
     // If it's not a duplicate, proceed with adding it as a new goal.
     const newGoal = document.createElement('li'); //This line creates a new html list item ('li') element using the creatElement Method to create an empty list item and stores it in the new variable newGoal.
     newGoal.textContent = goalInput; // it assigns the value of goalInput (the user-entered goal) to the text content of the newly created <li> element (newGoal). This effectively displays the goal text inside the list item in the user interface.
-    goalList.appendChild(newGoal); // this line appends a newly created list item (newGoal) to the 'goalList' unordered list element. it adds the 'newGoal' list item as a new item in the list of the fitness goals.
+    goalList.appendChild(newGoal); 
 
     
     // Clear the input field after adding the goal
